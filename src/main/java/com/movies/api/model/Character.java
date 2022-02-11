@@ -32,7 +32,6 @@ public class Character {
     @ManyToMany()
     private List<Film> films;
 
-
     public List<Film> getFilms() {
         return films;
     }
