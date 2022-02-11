@@ -7,6 +7,7 @@ import java.util.List;
 @Entity
 @Table(name = "genre")
 public class Genre {
+ 
 
     public Long getId() {
         return id;
