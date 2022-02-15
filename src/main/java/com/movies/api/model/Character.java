@@ -1,6 +1,7 @@
 package com.movies.api.model;
 
 import javax.persistence.*;
+import java.awt.*;
 import java.util.List;
 
 @Entity

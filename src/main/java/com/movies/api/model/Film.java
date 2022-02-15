@@ -2,11 +2,12 @@ package com.movies.api.model;
 
 import javax.persistence.*;
 import java.awt.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table(name = "films")
-public class Film {
+public class Film implements Serializable {
 
     public Long getId() {
         return id;
@@ -35,6 +36,7 @@ public class Film {
     private Integer score;
 
     private Character relatedCharacter;
+
 
 
     public String getImage() {
